@@ -1,0 +1,74 @@
+*{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  position: absolute;
+    z-index: 99999;
+    left: 21rem;
+}
+li {
+  list-style: none;
+  background: white;
+  border: 1px solid black;
+}
+.outer_list{
+  height: 100%;
+    background-color: #dfdfe4;
+    overflow: hidden;
+}
+.all{
+  float: left;
+} 
+.dropdown{
+  width: 40%!important;
+}
+.search{
+float: right;
+margin-top: -32px
+}
+.header{
+  width: 35rem;
+    margin: 0px 0px 0 40px;
+    height: 48px;
+    line-height: 30px;
+}
+.contact_list{
+  height: 79px;
+    background-color: #efe6e6;
+    margin: 10px;
+    width: 86%;
+    margin-left: 8%!important;
+}
+.row{
+  margin: 0 0 0 0!important;
+}
+.pic{
+  
+  margin-top: -61px;
+   
+}
+.pic img{
+  border-radius: 50%;
+    height: 124px;
+    margin: 0px 7.5rem;
+    box-shadow:2px 2px 12px 2px cadetblue;
+}
+.name,.skill,.value,.match,.time{
+  margin: 18px;
+}
+.card{
+ 
+  box-shadow: 3px 2px 13px 2px #232727;
+  height: 109%;
+  border-bottom: 3px solid red!important;
+  
+}
+.Details{
+  padding-top: 28px;
+}
+.wrap{
+  padding: 45px;
+}
